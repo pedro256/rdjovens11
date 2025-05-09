@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="absolute inset-0 z-0">
         <img 
-          src="/bg_t.png" 
+          src="https://i.imgur.com/jcXFwgn.png" 
           alt="Jovens G11" 
           className="w-full h-full object-cover opacity-20"
         />

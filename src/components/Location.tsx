@@ -51,7 +51,7 @@ const Location = () => {
               />
               <Marker position={position}>
                 <Popup>
-                  Rede de Jovens <br /> Igreja Renovada
+                  Rede de Jovens <br /> G11
                 </Popup>
               </Marker>
             </MapContainer>

@@ -56,7 +56,7 @@ const About = () => {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="/qsomos4.png"
+              src="https://i.imgur.com/GPLsrCm.png"
               alt="Jovens em comunidade"
               className="rounded-lg shadow-lg w-full h-auto"
             />

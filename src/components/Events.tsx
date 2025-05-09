@@ -7,34 +7,35 @@ const eventData = [
     id: 1,
     title: "Rede de Jovens IDE",
     description: "Um culto dinâmico e profundo que fortalece os fundamentos da fé através de louvor e mensagens bíblicas relevantes.",
-    imageUrl: "IMG_02.png",
-    schedule: "Todos os sábados",
+    imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761288/IMG_02_qmvxyt.png",
+    schedule: "Todos os Sábados",
     time: "18:00",
     location: "R Dinahi, 3 - Tancredo Neves"
   },
   {
     id: 2,
     title: "Culto de Família",
-    description: "Um encontro cheio de atividades divertidas e desafios que promovem a comunhão e o aprendizado bíblico de forma lúdica.",
-    imageUrl: "IMG_01.png",
-    schedule: "Último domingo do mês",
-    time: "16:00",
-    location: "Quadra esportiva"
+    description: `Um momento especial de comunhão, louvor e edificação para toda a família!, buscamos fortalecer os laços familiares à luz da Palavra de Deus, com ministrações inspiradas, 
+    cânticos de adoração e oração.`,
+    imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761288/RDJ_ICONS_cccaz6.png",
+    schedule: "Todos os Domingos",
+    time: "18:00",
+    location: "R Dinahi, 3 - Tancredo Neves"
   },
-  {
-    id: 3,
-    title: "Encontro de Adoração e Intercessão",
-    description: "Momentos dedicados à adoração profunda e oração, buscando intimidade com Deus e fortalecimento espiritual.",
-    imageUrl: "https://images.pexels.com/photos/256472/pexels-photo-256472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    schedule: "Quintas-feiras",
-    time: "20:00",
-    location: "Sala de oração"
-  },
+  // {
+  //   id: 3,
+  //   title: "Encontro de Adoração e Intercessão",
+  //   description: "Momentos dedicados à adoração profunda e oração, buscando intimidade com Deus e fortalecimento espiritual.",
+  //   imageUrl: "IMG_01.png",
+  //   schedule: "Quintas-feiras",
+  //   time: "20:00",
+  //   location: "Sala de oração"
+  // },
   {
     id: 4,
     title: "Célula de Meninas",
     description: "Momentos dedicados à adoração profunda e oração, buscando intimidade com Deus e fortalecimento espiritual.",
-    imageUrl: "https://images.pexels.com/photos/256472/pexels-photo-256472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761778/celula_meninas_lmpkag.jpg",
     schedule: "Quintas-feiras",
     time: "20:00",
     location: "Sala de oração"
@@ -43,7 +44,7 @@ const eventData = [
     id: 5,
     title: "Célula de Meninos",
     description: "Momentos dedicados à adoração profunda e oração, buscando intimidade com Deus e fortalecimento espiritual.",
-    imageUrl: "https://images.pexels.com/photos/256472/pexels-photo-256472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761779/celula_meninos_djyhbb.jpg",
     schedule: "Quintas-feiras",
     time: "20:00",
     location: "Sala de oração"
@@ -52,7 +53,7 @@ const eventData = [
     id: 6,
     title: "Eventos de Área",
     description: "Momentos dedicados à adoração profunda e oração, buscando intimidade com Deus e fortalecimento espiritual.",
-    imageUrl: "https://images.pexels.com/photos/256472/pexels-photo-256472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761780/eventos_area_h3awzb.jpg",
     schedule: "Quintas-feiras",
     time: "20:00",
     location: "Sala de oração"
