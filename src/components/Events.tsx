@@ -7,7 +7,7 @@ const eventData = [
     id: 1,
     title: "Rede de Jovens IDE",
     description: "Um culto dinâmico e profundo que fortalece os fundamentos da fé através de louvor e mensagens bíblicas relevantes.",
-    imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761288/IMG_02_qmvxyt.png",
+    imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1748721066/IMG_4420_rqfrhn.jpg",
     schedule: "Todos os Sábados",
     time: "18:00",
     location: "R Dinahi, 3 - Tancredo Neves"
@@ -36,27 +36,27 @@ const eventData = [
     title: "Célula de Meninas",
     description: "Momentos dedicados à adoração profunda e oração, buscando intimidade com Deus e fortalecimento espiritual.",
     imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761778/celula_meninas_lmpkag.jpg",
-    schedule: "Quintas-feiras",
-    time: "20:00",
-    location: "Sala de oração"
+    schedule: "Sábados",
+    time: "16:30",
+    location: "Rua Jasmin, 23, Tancredo Neves"
   },
   {
     id: 5,
     title: "Célula de Meninos",
     description: "Momentos dedicados à adoração profunda e oração, buscando intimidade com Deus e fortalecimento espiritual.",
     imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761779/celula_meninos_djyhbb.jpg",
-    schedule: "Quintas-feiras",
-    time: "20:00",
-    location: "Sala de oração"
+    schedule: "Sexta-feiras",
+    time: "18:00",
+    location: "Não definida (visitamos casas)"
   },
   {
     id: 6,
     title: "Eventos de Área",
     description: "Momentos dedicados à adoração profunda e oração, buscando intimidade com Deus e fortalecimento espiritual.",
     imageUrl: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761780/eventos_area_h3awzb.jpg",
-    schedule: "Quintas-feiras",
-    time: "20:00",
-    location: "Sala de oração"
+    schedule: "Sábados",
+    time: "18:00",
+    location: "Sede área 143"
   }
 ];
 
