@@ -15,36 +15,21 @@ const galleryMedia = [
     src: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761335/4e6a8c0d-bdd6-4328-a6a1-6d69e53dad23_ofras1.jpg",
     alt: "Vídeo institucional"
   },
-  {
-    id: 3,
-    type: 'video',
-    src: "https://res.cloudinary.com/dzf56esap/video/upload/v1746761312/0b51faa7-15d7-46af-ba8a-7e66150f8c53_hydre2.mp4",
-    alt: "Estudo bíblico"
-  },
+
   {
     id: 4,
     type: 'image',
     src: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761314/IMG_9968_nfb5rb.jpg",
     alt: "Atividade em grupo"
   },
-  {
-    id: 5,
-    type: 'video',
-    src: "https://res.cloudinary.com/dzf56esap/video/upload/v1746762166/copy_70564B7B-1913-41E4-89B3-B71F27066048_keof3i.mov",
-    alt: "Vídeo de celebração"
-  },
-  {
-    id: 6,
-    type: 'image',
-    src: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761288/qsomos_hybs1c.png",
-    alt: "Evento jovemaaa"
-  },
-  {
-    id: 7,
-    type: 'video',
-    src: "https://res.cloudinary.com/dzf56esap/video/upload/v1746761337/IMG_9324_wkbqh8.mov",
-    alt: "Vídeo de celebração"
-  },
+
+  // {
+  //   id: 6,
+  //   type: 'image',
+  //   src: "https://res.cloudinary.com/dzf56esap/image/upload/v1746761288/qsomos_hybs1c.png",
+  //   alt: "Evento jovemaaa"
+  // },
+
   {
     id: 8,
     type: 'image',
@@ -64,18 +49,26 @@ const galleryMedia = [
     alt: "Evento jovemaaa",
     src: "https://res.cloudinary.com/dzf56esap/image/upload/v1746763257/664da01f-8c38-49a9-b7f5-6307f22bbea2_hn0do6.jpg"
   },
-  {
-    id: 11,
-    type: 'image',
-    alt: "Evento jovemaaa",
-    src: "https://res.cloudinary.com/dzf56esap/image/upload/v1746763585/cdf7fcad-67c5-4172-a96e-4bfe6b68cdb9_iydjzp.jpg"
-  },
+
   {
     id: 12,
     type: 'image',
     alt: "Evento jovemaaa",
-    src: "https://res.cloudinary.com/dzf56esap/image/upload/v1746763702/RDJ_ICONS_1_zhiave.png"
-  }, {
+    src: "https://res.cloudinary.com/dzf56esap/image/upload/v1768503894/IMG_5547_sm6mlx.jpg"
+  },
+  {
+    id: 21,
+    type: 'image',
+    alt: "Evento jovemaaa",
+    src: "https://res.cloudinary.com/dzf56esap/image/upload/v1768503898/IMG_5551_wq9ko0.jpg"
+  },
+  {
+    id: 22,
+    type: 'image',
+    alt: "Evento jovemaaa",
+    src: "  https://res.cloudinary.com/dzf56esap/image/upload/v1768504331/9b012207-9812-4ecc-857b-7d2b6ca321c4_hruy2p.jpg"
+  },
+  {
     id: 13,
     type: 'image',
     alt: "Evento jovemaaa",
@@ -92,7 +85,7 @@ const galleryMedia = [
     id: 15,
     type: 'yt_iframe',
     alt: "Evento jovemaaa",
-    content:  (
+    content: (
       <iframe width="560" height="315"
         src="https://www.youtube.com/embed/c9fbStvx2JA?si=P8j28w-XZk4BWy6T"
         title="YouTube video player"
@@ -168,7 +161,7 @@ const Gallery = () => {
                   onClick={(e) => e.preventDefault()} // evita abrir ao clicar nos controles
                 />
               ) : undefined}
-              {media.type === 'yt_iframe' && media.content }
+              {media.type === 'yt_iframe' && media.content}
 
             </motion.div>
           ))}
